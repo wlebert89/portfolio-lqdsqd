@@ -1,0 +1,65 @@
+#contact {
+    margin: auto;
+    margin-top: 40px;
+    width: 600px;
+}
+
+#contact-title {
+    font-size: 32px;
+    font-weight: 100;
+    color: #f9f9f9;
+}
+
+.contact-info {
+    color: #f9f9f9;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-box {
+    background: #f9f9f9;
+    border: 1px solid #9f9f9f;
+    outline: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 100%;
+}
+
+#message-input {
+    background: #f9f9f9;
+    border: 1px solid #9f9f9f;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    height: 120px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #9f9f9f;
+    font-family: 'Open Sans', sans-serif;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #9f9f9f;
+    font-family: 'Open Sans', sans-serif;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #9f9f9f;
+    font-family: 'Open Sans', sans-serif;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #9f9f9f;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#submit {
+    font-size: 16px;
+    color: #9f9f9f;
+    border: solid 1px #9f9f9f;
+    background: #f9f9f9;
+    width: 110px;
+    height: 50px;
+}

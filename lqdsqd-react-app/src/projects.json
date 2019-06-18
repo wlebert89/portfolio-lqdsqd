@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Reel: Visual Effects and 3D",
+        "description": "My reel from 2018.",
+        "tags": ["visual effects", "3D", "Animation"],
+        "thumbnail": "temp-image.jpg",
+        "videoLink": "https://vimeo.com/261080116",
+        "overlayColor": 1
+    },
+    {
+        "id": 2,
+        "title": "Cut To Black Logo Animation",
+        "description": "A logo animation for Cut To Black, a local Austin creative agency and post house.",
+        "tags": ["Motion Graphics", "Animation"],
+        "thumbnail": "temp-image.jpg",
+        "videoLink": "https://vimeo.com/184595712",
+        "overlayColor": 2
+    }
+]
