@@ -4,7 +4,7 @@ import "./Nav.css";
 function Nav() {
     return (
         <header>
-            <div class="container">
+            <div className="container">
                 <div id="logo">
                     lqdsqd
             </div>

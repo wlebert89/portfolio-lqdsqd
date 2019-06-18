@@ -1,13 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import NoMatch from "./pages/NoMatch";
+import About from "./pages/About/About";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
+import NoMatch from "./pages/NoMatch/NoMatch";
+import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
     <Router>
+      <Nav />
       <div>
         <Switch>
           <Route exact path="/" component={About} />
@@ -17,6 +20,7 @@ function App() {
           <Route component={NoMatch} />
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
