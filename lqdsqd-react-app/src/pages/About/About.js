@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
     return (
-        <div class="container">
+        <div className="container">
             <div id="profile-picture">
                 <img src="images/lqdsqd-cover.png" alt="lqdsqd" />
             </div>
@@ -11,10 +11,6 @@ function About() {
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore soluta, molestiae tenetur impedit eum cupiditate nemo, at aperiam ipsum eveniet voluptatum unde tempore earum aspernatur cum rem doloremque dicta.
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus rem, optio dolore sed ducimus quasi adipisci, possimus nostrum cum nam illo deserunt tempore quod. Accusamus enim saepe molestias sequi incidunt?
-                </p>
-                <br />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, accusamus aut perferendis qui eum harum. Qui cumque nemo odio? Ducimus quam tempore voluptates corporis eos placeat adipisci consectetur ex alias.
                 </p>
             </div>
         </div>
