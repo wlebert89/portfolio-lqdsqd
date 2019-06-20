@@ -1,20 +1,47 @@
 [
     {
         "id": 1,
-        "title": "Reel: Visual Effects and 3D",
-        "description": "My reel from 2018.",
-        "tags": ["visual effects", "3D", "Animation"],
-        "thumbnail": "temp-image.jpg",
+        "title": "Emilio",
+        "description": "A 3D animation I did for Pinthouse Pizza to promote the release of Emilio - a hazy triple IPA brewed in collaboration with Green Cheek Beer Co.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "emilio.jpg",
         "video": "https://player.vimeo.com/video/261080116",
-        "overlayColor": 1
+        "overlayColor": 5
     },
     {
         "id": 2,
-        "title": "Cut To Black Logo Animation",
-        "description": "A logo animation for local Austin post-house, Cut To Black.",
-        "tags": ["Motion Graphics", "Animation"],
-        "thumbnail": "temp-image.jpg",
+        "title": "Sacred Delicacies",
+        "description": "Lorem Ipsum.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "sacred_delicacies.jpg",
         "video": "https://player.vimeo.com/video/184595712",
-        "overlayColor": 2
+        "overlayColor": 1
+    },
+    {
+        "id": 3,
+        "title": "Rattlesnake Arms",
+        "description": "Lorem Ipsum.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "rattlesnake_arms.jpg",
+        "video": "https://player.vimeo.com/video/184595712",
+        "overlayColor": 3
+    },
+    {
+        "id": 4,
+        "title": "Electric Jellyfish",
+        "description": "Lorem Ipsum.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "electric_jellyfish-02.jpg",
+        "video": "https://player.vimeo.com/video/184595712",
+        "overlayColor": 7
+    },
+    {
+        "id": 5,
+        "title": "Crispy Waves",
+        "description": "Lorem Ipsum.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "crispy_waves.jpg",
+        "video": "https://player.vimeo.com/video/184595712",
+        "overlayColor": 5
     }
 ]

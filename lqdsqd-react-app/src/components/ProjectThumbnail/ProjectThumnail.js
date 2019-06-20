@@ -6,7 +6,7 @@ function ProjectThumbnail(props) {
         <div className="project-thumbnail">
             <Link to={"/portfolio/project/" + props.id}>
                 <div className={"hovereffect color-" + props.overlayColor}>
-                    <img src={"/images/" + props.thumbnail} alt={props.title} />
+                    <img src={"/images/thumbnails/" + props.thumbnail} alt={props.title} />
                     <div className="overlay">
                         <p className="thumbnail-text">
                             {props.title}
