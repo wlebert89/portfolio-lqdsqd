@@ -10,17 +10,11 @@ header {
     margin: auto;
 }
 
-#logo {
-    font-weight: 100;
-    font-size: 40px;
-    color: #111;
-    margin-top: 50px;
-    float: left;
-}
-
 #nav {
     float: right;
     margin-top: 40px;
+    display: flex;
+    align-items: center;
 }
 
 #hamburger-menu {
@@ -33,17 +27,25 @@ header {
 }
 
 .fab {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 a:link, a:visited {
     color: #9f9f9f;
     padding: 0px;
     text-decoration: none;
+    transition: color .5s;
 }
 
 a:hover {
-    color: #9f9f9f;
-    text-decoration: underline;
+    color: #111;
     cursor: pointer;
+}
+
+#logo {
+    font-weight: 100;
+    font-size: 40px;
+    color: #111;
+    margin-top: 50px;
+    float: left;
 }

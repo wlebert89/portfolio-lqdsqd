@@ -18,13 +18,28 @@ class Project extends React.Component {
         }
     }
 
-    render() {
-        console.log(this.state.projectInfo);
+    renderContent() {
         return (
-            <div>
-                <iframe className="videoPlayer" src={this.state.projectInfo.video} title={this.state.projectInfo.id} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div className="container">
+                <div id="project-left">
+                    <div className="project-title">
+                        {this.state.projectInfo.title}
+                    </div>
+                    <div className="project-desc">
+                        {this.state.projectInfo.description}
+                    </div>
+                </div>
+                <div id="project-right">
+                    <div className="video-player">
+                        <iframe src={this.state.projectInfo.video} title={this.state.projectInfo.id} allow="autoplay; fullscreen"></iframe>
+                    </div>
+                </div>
             </div>
         )
+    }
+
+    render() {
+        return this.renderContent();
     }
 }
 

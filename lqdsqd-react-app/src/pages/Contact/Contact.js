@@ -4,15 +4,15 @@ import "./Contact.css";
 function Contact() {
     return (
         <div id="contact">
-            <div id="contact-title">
+            {/* <div id="contact-title">
                 Contact
-        </div>
+            </div>
             <div className="contact-info">
-                wesley.lebert@gmail.com
-        </div>
+                lqdsqd@gmail.com
+            </div>
             <div className="contact-info">
                 (619) 929-7792
-        </div>
+            </div> */}
             <form>
                 <label for="name"></label>
                 <input type="text" className="input-box" name="name" placeholder="name" />
