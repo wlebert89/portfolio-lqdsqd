@@ -9,13 +9,10 @@ class Project extends React.Component {
 
     componentDidMount() {
         const projectId = parseInt(this.props.match.params.id);
-        for (let i = 0; i < projects.length; i++) {
-            if (projectId === projects[i].id) {
-                this.setState({
-                    projectInfo: projects[i]
-                });
-            }
-        }
+
+        const projectInfo = projects.find(({ id }) => projectId === id)
+
+        this.setState({ projectInfo });
     }
 
     renderContent() {

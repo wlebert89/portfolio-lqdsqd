@@ -20,7 +20,7 @@
     font-weight: 100;
 }
 
-/* Hover color options */
+/* HOVER OVERLAY */
 
 .color-1 {
     background: #b04242;
@@ -84,7 +84,7 @@
 }
 
 .hovereffect:hover img {
-    opacity: 0.4;
+    opacity: 0.5;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
