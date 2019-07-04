@@ -144,6 +144,12 @@
 
 /* RESPONSIVENESS */
 
+@media screen and (max-width: 1150px) {
+    .project-thumbnail {
+        width: 33.3%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .project-thumbnail {
         width: 50%;
@@ -151,7 +157,6 @@
 }
 
 @media screen and (max-width: 640px) {
-
     .project-thumbnail {
         width: 100%;
     }
