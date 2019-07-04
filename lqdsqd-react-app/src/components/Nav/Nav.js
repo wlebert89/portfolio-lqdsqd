@@ -11,8 +11,8 @@ function Nav() {
             </div>
                 <div id="nav">
                     <span className="nav-link"><Link to={"/portfolio"}>PROJECTS</Link></span>
-                    <span className="nav-link"><Link to={"/about"}>ABOUT</Link></span>
-                    <span className="nav-link"><Link to={"/contact"}>CONTACT</Link></span>
+                    <span className="nav-link"><Link activeClassName="active-nav" to={"/about"}>ABOUT</Link></span>
+                    <span className="nav-link"><Link activeClassName="active-nav" to={"/contact"}>CONTACT</Link></span>
                     <a className="nav-link fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
                     <a className="nav-link fab fa-github-square" href="https://github.com/wlebert89" target="_blank" rel="noopener noreferrer"> </a>
                     <a className="nav-link fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
@@ -24,7 +24,6 @@ function Nav() {
                         <span></span>
                     </div>
                 </div>
-
             </div>
         </header>
     )
