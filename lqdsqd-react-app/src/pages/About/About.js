@@ -7,6 +7,9 @@ function About() {
             <div id="profile-picture">
                 <img src="images/lqdsqd-cover.png" alt="lqdsqd" />
             </div>
+            <div id="contact">
+                wesley.lebert@gmail.com | (619) 929-7792
+            </div>
             <div id="about-text">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore soluta, molestiae tenetur impedit eum cupiditate nemo, at aperiam ipsum eveniet voluptatum unde tempore earum aspernatur cum rem doloremque dicta.

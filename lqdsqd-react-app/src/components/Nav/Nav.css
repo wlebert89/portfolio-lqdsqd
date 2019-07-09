@@ -20,7 +20,7 @@ header {
 
 #nav {
     float: right;
-    margin-top: 40px;
+    margin-top: 35px;
     display: flex;
     align-items: center;
 }
@@ -45,10 +45,20 @@ a:hover {
     cursor: pointer;
 }
 
+#hamburger-menu {
+    display: none;
+}
+
 /* RESPONSIVENESS */
 
   @media screen and (max-width: 640px) {
     #nav {
         display: none;
+    }
+
+    #hamburger-menu {
+        display: unset;
+        float: right;
+        margin-top: 65px;
     }
 }

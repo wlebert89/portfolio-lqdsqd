@@ -10,8 +10,14 @@
     margin-top: 40px;
 }
 
+#contact {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
 #about-text {
-    color: #f9f9f9;
+    color: #fff;
     line-height: 170%;
     text-align: center;
     max-width: 500px;
