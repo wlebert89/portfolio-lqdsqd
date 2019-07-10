@@ -154,6 +154,11 @@
     .project-thumbnail {
         width: 50%;
     }
+
+    .hovereffect:hover img {
+        opacity: 1;
+    }
+
     .overlay {
         display: none;
     }
