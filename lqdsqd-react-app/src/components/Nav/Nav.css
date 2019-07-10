@@ -18,7 +18,7 @@ header {
     float: left;
 }
 
-#nav {
+nav {
     float: right;
     margin-top: 35px;
     display: flex;
@@ -74,15 +74,21 @@ a:hover {
         margin-top: 30px;
     }
 
-    #nav {
+    nav {
         clear: both;
         float: right;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 10px;
-        /* transition: opacity .35s; */
+        opacity: 0;
+        margin-top: 20px;
+        transition: opacity .35s, margin .35s;
         
+    }
+
+    .nav-expanded {
+        opacity: 1;
+        margin-top: 10px;
     }
 
     .nav-link {

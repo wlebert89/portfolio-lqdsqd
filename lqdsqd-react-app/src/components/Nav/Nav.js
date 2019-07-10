@@ -29,17 +29,17 @@ class Nav extends React.Component {
                             height={15}
                             strokeWidth={1}
                             rotate={0}
-                            color="#111"
+                            color="#9f9f9f"
                             borderRadius={0}
                             animationDuration={0.35}
                         />
                     </div>
-                    <div id="nav">
+                    <nav className={this.state.open ? "nav-expanded" : null}>
                         <span className="nav-link"><NavLink to={"/portfolio"} activeStyle={{color: "#333"}}>PROJECTS</NavLink></span>
                         <span className="nav-link"><NavLink to={"/about"} activeStyle={{color: "#333"}}>ABOUT</NavLink></span>
                         <a className="nav-link fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
                         <a className="nav-link fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
-                    </div>
+                    </nav>
                 </div>
             </header>
         );
