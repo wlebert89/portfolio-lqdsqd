@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <div id="footer-text">
-                &copy; Copyright 2019
+                &copy; Copyright lqdsqd 2019
             </div>
         </footer>
     )

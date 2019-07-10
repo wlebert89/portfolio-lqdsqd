@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import HamburgerMenu from "react-hamburger-menu";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class Nav extends React.Component {
     state = {
@@ -9,22 +9,17 @@ class Nav extends React.Component {
     };
 
     handleClick() {
-        !this.state.open ? this.setState({ open: true }) : this.setState({ open: false });
+        this.setState((prevState) => {
+            return {open: !prevState.open}
+        })
     }
 
     render() {
         return (
-            <header>
+            <header className={this.state.open ? "header-expanded" : null}>
                 <div className="container">
                     <div id="logo">
-                        <Link to="/" style={{ color: "#000" }}> lqdsqd </Link>
-                    </div>
-                    <div id="nav">
-                        <span className="nav-link"><Link to={"/portfolio"}>PROJECTS</Link></span>
-                        <span className="nav-link"><Link to={"/about"}>ABOUT</Link></span>
-                        <a className="nav-link fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
-                        {/* <a className="nav-link fab fa-github-square" href="https://github.com/wlebert89" target="_blank" rel="noopener noreferrer"> </a> */}
-                        <a className="nav-link fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
+                        <NavLink to="/" style={{ color: "#000" }}> lqdsqd </NavLink>
                     </div>
                     <div id="hamburger-menu">
                         <HamburgerMenu
@@ -34,10 +29,16 @@ class Nav extends React.Component {
                             height={15}
                             strokeWidth={1}
                             rotate={0}
-                            color='black'
+                            color="#111"
                             borderRadius={0}
-                            animationDuration={0.5}
+                            animationDuration={0.35}
                         />
+                    </div>
+                    <div id="nav">
+                        <span className="nav-link"><NavLink to={"/portfolio"} activeStyle={{color: "#333"}}>PROJECTS</NavLink></span>
+                        <span className="nav-link"><NavLink to={"/about"} activeStyle={{color: "#333"}}>ABOUT</NavLink></span>
+                        <a className="nav-link fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
+                        <a className="nav-link fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
                     </div>
                 </div>
             </header>
