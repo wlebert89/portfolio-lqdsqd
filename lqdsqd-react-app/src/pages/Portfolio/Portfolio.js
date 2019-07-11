@@ -16,6 +16,7 @@ class Portfolio extends React.Component {
                     id={p.id}
                     key={p.id}
                     title={p.title}
+                    client={p.client}
                     description={p.description}
                     tags={p.tags}
                     thumbnail={p.thumbnail}
