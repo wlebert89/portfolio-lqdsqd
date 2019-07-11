@@ -13,6 +13,8 @@ class Project extends React.Component {
         const projectInfo = projects.find(({ id }) => projectId === id)
 
         this.setState({ projectInfo });
+
+       window.scrollTo(0, 0) 
     }
 
     renderContent() {
