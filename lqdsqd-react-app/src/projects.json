@@ -7,7 +7,8 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "emilio.jpg",
         "video": "https://player.vimeo.com/video/343522009",
-        "overlayColor": 4
+        "overlayColor": 4,
+        "aspectCode": 1
     },
     {
         "id": 343522239,
@@ -17,7 +18,8 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "rattlesnake_arms.jpg",
         "video": "https://player.vimeo.com/video/343522239",
-        "overlayColor": 3
+        "overlayColor": 3,
+        "aspectCode": 1
     },
     {
         "id": 343522493,
@@ -27,7 +29,8 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "sacred_delicacies.jpg",
         "video": "https://player.vimeo.com/video/343522493",
-        "overlayColor": 2
+        "overlayColor": 2,
+        "aspectCode": 1
     },
     {
         "id": 343521848,
@@ -37,7 +40,8 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "electric_jellyfish-02.jpg",
         "video": "https://player.vimeo.com/video/343521848",
-        "overlayColor": 7
+        "overlayColor": 7,
+        "aspectCode": 1
     },
     {
         "id": 343521459,
@@ -47,7 +51,8 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "crispy_waves.jpg",
         "video": "https://player.vimeo.com/video/343521459",
-        "overlayColor": 5
+        "overlayColor": 5,
+        "aspectCode": 1
     },
     {
         "id": 343522766,
@@ -57,6 +62,7 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "dalstrong_logo.jpg",
         "video": "https://player.vimeo.com/video/343522766",
-        "overlayColor": 1
+        "overlayColor": 1,
+        "aspectCode": 2
     }
 ]

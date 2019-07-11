@@ -33,7 +33,13 @@
     margin-top: 40px;
 }
 
-.video-player {
+.video-player-1 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video-player-2 {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
@@ -65,7 +71,9 @@ iframe {
         padding-right: 0px;
     }
 
-    .video-player {
+    .video-player-1 {
+        position: relative;
+        overflow: hidden;
         padding-top: 100%;
     }
 }
