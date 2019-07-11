@@ -14,7 +14,7 @@ class Project extends React.Component {
 
         this.setState({ projectInfo });
 
-       window.scrollTo(0, 0) 
+        window.scrollTo(0, 0)
     }
 
     renderContent() {
@@ -32,8 +32,16 @@ class Project extends React.Component {
                     <div className="project-client">
                         {this.state.projectInfo.client}
                     </div>
-                    <div className="project-desc">
-                        {this.state.projectInfo.description}
+                    <div className="project-descriptions">
+                        <div className="desc-paragraph">
+                            {this.state.projectInfo.description1}
+                        </div>
+                        <div className="desc-paragraph">
+                            {this.state.projectInfo.description2}
+                        </div>
+                        <div className="desc-paragraph">
+                            {this.state.projectInfo.description3}
+                        </div>
                     </div>
                 </div>
             </div>

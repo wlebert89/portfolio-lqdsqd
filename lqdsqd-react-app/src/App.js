@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./pages/About/About";
+import Landing from "./pages/Landing/Landing";
+import Info from "./pages/Info/Info";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Project from "./pages/Project/Project"
 import NoMatch from "./pages/NoMatch/NoMatch";
@@ -13,8 +14,8 @@ function App() {
       <Nav />
       <div>
         <Switch>
-          <Route exact path="/" component={Portfolio} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/info" component={Info} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/portfolio/project/:id" component={Project} />
           <Route component={NoMatch} />

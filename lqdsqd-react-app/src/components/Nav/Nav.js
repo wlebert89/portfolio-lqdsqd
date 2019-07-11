@@ -10,7 +10,7 @@ class Nav extends React.Component {
 
     handleClick() {
         this.setState((prevState) => {
-            return {open: !prevState.open}
+            return { open: !prevState.open }
         })
     }
 
@@ -35,10 +35,11 @@ class Nav extends React.Component {
                         />
                     </div>
                     <nav className={this.state.open ? "nav-expanded" : null}>
-                        <span className="nav-link"><NavLink to={"/portfolio"} activeStyle={{color: "#333"}}>PROJECTS</NavLink></span>
-                        <span className="nav-link"><NavLink to={"/about"} activeStyle={{color: "#333"}}>ABOUT</NavLink></span>
-                        <a className="nav-link fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
-                        <a className="nav-link fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
+                        <span className="nav-link"><NavLink exact to={"/"} activeStyle={{ color: "#333" }}>HOME</NavLink></span>
+                        <span className="nav-link"><NavLink to={"/portfolio"} activeStyle={{ color: "#333" }}>PROJECTS</NavLink></span>
+                        <span className="nav-link"><NavLink to={"/info"} activeStyle={{ color: "#333" }}>INFO</NavLink></span>
+                        <a className="nav-link nav-icon fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
+                        <a className="nav-link nav-icon fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
                     </nav>
                 </div>
             </header>

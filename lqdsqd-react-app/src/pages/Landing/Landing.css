@@ -1,0 +1,110 @@
+#landing {
+    color: #fff;
+    text-align: center;
+    background-image: url(/images/landing-crystals-overlay.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+#main-title {
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: 100px;
+    text-shadow: #333 0px 0px 5px
+}
+
+#sub-title {
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 40px;
+    text-shadow: #333 0px 0px 5px
+}
+
+#buttons {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.button-link {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0px 30px 0px 30px;
+    box-shadow: #333 0px 0px 5px
+}
+
+.button-projects {
+    background-color: #ed6b4a;
+}
+
+.button-projects:hover {
+    background-color: #eb5833;
+    cursor: pointer;
+}
+
+.button-info {
+    background-color: #ed4a60;
+}
+
+.button-info:hover {
+    background-color: #eb374f;
+    cursor: pointer;
+}
+
+#cta {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 50px;
+    text-shadow: #333 0px 0px 5px;
+    padding-bottom: 100px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    #landing {
+        background-image: none;
+    }
+
+    #main-title {
+        font-size: 60px;
+    }
+    
+    #sub-title {
+        font-size: 18px;
+    }
+    
+    #buttons {
+        margin-top: 100px;
+    }
+    
+    .button-link {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    #cta {
+        font-size: 14px;
+    }
+}

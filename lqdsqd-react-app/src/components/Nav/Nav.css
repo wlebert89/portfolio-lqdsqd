@@ -30,7 +30,7 @@ nav {
     margin-left: 20px;
 }
 
-.fab {
+.nav-icon {
     font-size: 20px;
 }
 
@@ -60,7 +60,7 @@ a:hover {
     }
 
     .header-expanded {
-        height: 120px;
+        height: 140px;
     }
     
     #logo {
