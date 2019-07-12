@@ -28,7 +28,7 @@
 
 #buttons {
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .button-link {
@@ -66,37 +66,35 @@
     font-weight: 100;
     margin-top: 50px;
     text-shadow: #333 0px 0px 5px;
-    padding-bottom: 100px;
+    margin-bottom: 140px;
+}
+
+#contact-icons {
+    display: none;
 }
 
 /* RESPONSIVENESS */
 
-@media screen and (max-width: 1150px) {
-    
-}
+@media screen and (max-width: 1150px) {}
 
 @media screen and (max-width: 1024px) {
-    
-}
-
-@media screen and (max-width: 640px) {
-
     #landing {
         background-image: none;
     }
 
     #main-title {
         font-size: 60px;
+        margin-top: 60px;
     }
-    
+
     #sub-title {
         font-size: 18px;
     }
-    
+
     #buttons {
-        margin-top: 100px;
+        margin-top: 50px;
     }
-    
+
     .button-link {
         width: 120px;
         height: 40px;
@@ -106,5 +104,25 @@
 
     #cta {
         font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #contact-icons {
+        display: unset;
+    }
+
+    .contact-icon {
+        font-size: 20px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    a.contact-icon:link,
+    a.contact-icon:visited {
+        color: #fff;
+        text-decoration: none;
     }
 }

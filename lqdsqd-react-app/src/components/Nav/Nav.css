@@ -18,6 +18,10 @@ header {
     float: left;
 }
 
+a.logo-link {
+    text-decoration: none;
+}
+
 nav {
     float: right;
     margin-top: 35px;
@@ -34,14 +38,14 @@ nav {
     font-size: 20px;
 }
 
-a:link,
-a:visited {
+a.nav-link:link,
+a.nav-link:visited {
     color: #9f9f9f;
     text-decoration: none;
     transition: color .5s;
 }
 
-a:hover {
+a.nav-link:hover {
     color: #111;
     cursor: pointer;
 }
@@ -96,7 +100,7 @@ a:hover {
         margin-left: 0px;
     }
 
-    .fab {
+    .nav-icon {
         display: none;
     }
 }
