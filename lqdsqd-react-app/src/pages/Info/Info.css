@@ -19,7 +19,8 @@
 #about-text {
     color: #fff;
     line-height: 170%;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     max-width: 500px;
     margin: auto;
     margin-top: 40px;

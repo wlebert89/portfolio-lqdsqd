@@ -1,7 +1,7 @@
 import React from "react";
 import "./Info.css";
 
-function About() {
+function Info() {
     return (
         <div className="container">
             <div id="profile-picture">
@@ -12,12 +12,14 @@ function About() {
             </div>
             <div id="about-text">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore soluta, molestiae tenetur impedit eum cupiditate nemo, at aperiam ipsum eveniet voluptatum unde tempore earum aspernatur cum rem doloremque dicta.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus rem, optio dolore sed ducimus quasi adipisci, possimus nostrum cum nam illo deserunt tempore quod. Accusamus enim saepe molestias sequi incidunt?
+                    lqdsqd (Liquid Squid) is the visual design alias of Wes Lebert - freelance motion designer, visual effects artist, and 3D generalist in Austin, TX.
+                    With six years of professional experience in the post-production industry, Wes has worked both full-time and contract for a number of creative agencies and brands, and has experience working with teams of all sizes.
+                    He brings a tireless eye for detail and a passion for problem solving to all of his projects.
+                    Please get in touch any time via the above channels.
                 </p>
             </div>
         </div>
     )
 }
 
-export default About;
+export default Info;

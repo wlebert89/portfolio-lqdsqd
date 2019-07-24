@@ -39,7 +39,7 @@ class Nav extends React.Component {
                         <NavLink className="nav-link" to={"/portfolio"} activeStyle={{ color: "#333" }}>PROJECTS</NavLink>
                         <NavLink className="nav-link" to={"/info"} activeStyle={{ color: "#333" }}>INFO</NavLink>
                         <a className="nav-link nav-icon fab fa-instagram" href="https://www.instagram.com/lqdsqd/" target="_blank" rel="noopener noreferrer"> </a>
-                        <a className="nav-link nav-icon fab fa-linkedin-in" href="https://www.linkedin.com/in/wesley-lebert-9a147a180/" target="_blank" rel="noopener noreferrer"> </a>
+                        <a className="nav-link nav-icon fab fa-vimeo-v" href="https://vimeo.com/lqdsqd" target="_blank" rel="noopener noreferrer"> </a>
                     </nav>
                 </div>
             </header>

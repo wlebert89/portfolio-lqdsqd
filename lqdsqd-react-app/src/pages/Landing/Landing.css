@@ -15,20 +15,29 @@
 #main-title {
     font-weight: 900;
     font-size: 80px;
-    margin-top: 100px;
+    margin-top: 90px;
     text-shadow: #333 0px 0px 5px
 }
 
 #sub-title {
     font-weight: 100;
-    font-size: 32px;
+    font-style: italic;
+    font-size: 18px;
     margin-top: 40px;
     text-shadow: #333 0px 0px 5px
 }
 
+#services {
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 60px;
+    text-shadow: #333 0px 0px 5px
+}
+
+
 #buttons {
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .button-link {
@@ -39,7 +48,7 @@
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    margin: 0px 30px 0px 30px;
+    margin: 0px 20px 0px 20px;
     box-shadow: #333 0px 0px 5px
 }
 
@@ -62,7 +71,7 @@
 }
 
 #cta {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 100;
     margin-top: 50px;
     text-shadow: #333 0px 0px 5px;

@@ -23,7 +23,6 @@ class Portfolio extends React.Component {
                     tags={p.tags}
                     thumbnail={p.thumbnail}
                     video={p.video}
-                    overlayColor={p.overlayColor}
                 />
                 ))}
             </div>

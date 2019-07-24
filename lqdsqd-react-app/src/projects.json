@@ -9,7 +9,6 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "emilio.jpg",
         "video": "https://player.vimeo.com/video/343522009",
-        "overlayColor": 4,
         "aspectCode": 1
     },
     {
@@ -22,7 +21,6 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "rattlesnake_arms.jpg",
         "video": "https://player.vimeo.com/video/343522239",
-        "overlayColor": 3,
         "aspectCode": 1
     },
     {
@@ -35,7 +33,6 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "sacred_delicacies.jpg",
         "video": "https://player.vimeo.com/video/343522493",
-        "overlayColor": 2,
         "aspectCode": 1
     },
     {
@@ -46,9 +43,8 @@
         "tags": ["3D", "Animation", "Art Direction"],
         "description2": "",
         "description3": "",
-        "thumbnail": "electric_jellyfish-02.jpg",
+        "thumbnail": "electric_jellyfish.jpg",
         "video": "https://player.vimeo.com/video/343521848",
-        "overlayColor": 7,
         "aspectCode": 1
     },
     {
@@ -56,25 +52,95 @@
         "title": "Crispy Waves",
         "client": "Pinthouse Pizza",
         "description1": "A 3D animation for the first Pinthouse Pizza can release - Crispy Waves hazy IPA.",
-        "description2": "I designed the underwater set in the 3D and sampled some of the coral elements and fish from the can itself to use in the scene.",
+        "description2": "I designed the underwater set in the 3D and sampled some of the coral elements and fish from the can itself to use in the scene. I then created the bubbles using Particular and composited the shot in After Effects.",
         "description3": "",
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "crispy_waves.jpg",
         "video": "https://player.vimeo.com/video/343521459",
-        "overlayColor": 5,
         "aspectCode": 1
     },
     {
         "id": 343522766,
         "client": "Dalstrong",
-        "title": "Dalstrong Logo Reveal",
+        "title": "3D Logo Reveal",
         "description1": "A 3D logo reveal for Dalstrong.",
         "description2": "",
         "description3": "",
         "tags": ["3D", "Animation", "Art Direction"],
         "thumbnail": "dalstrong_logo.jpg",
         "video": "https://player.vimeo.com/video/343522766",
-        "overlayColor": 1,
+        "aspectCode": 2
+    },
+    {
+        "id": 347598681,
+        "client": "Cut To Black",
+        "title": "3D Branding Spot",
+        "description1": "A 3D branding spot for the Austin production and post company, Cut To Black.",
+        "description2": "I worked with the company owner, Lee Rothenflue, to conceptualize a number of short 3D animations that allude to the Cut To Black brand. I then modeled (some of the models were purchased), textured, lit, and animated all of the shots in Cinema 4D and rendered them using Octane Render.",
+        "description3": "",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "ctb_branding_spot.jpg",
+        "video": "https://player.vimeo.com/video/347598681",
+        "aspectCode": 2
+    },
+    {
+        "id": 347605043,
+        "client": "SXSW",
+        "title": "2018 Gaming Awards Intro Video",
+        "description1": "This video was produced by Cut To Black for the 2018 SXSW Gaming Awards.",
+        "description2": "I did all of the visual effects work for this video, which includes 3D camera tracking, rotoscoping, and compositing.",
+        "description3": "",
+        "tags": ["Visual Effects", "Animation"],
+        "thumbnail": "sxsw_gaming_awards.jpg",
+        "video": "https://player.vimeo.com/video/347605043",
+        "aspectCode": 2
+    },
+    {
+        "id": 347791614,
+        "client": "Short Film",
+        "title": "Texas Cotton - VFX Cutdown",
+        "description1": "This is a cutdown showcasing the visual effects work I did for the 2018 short film, Texas Cotton.",
+        "description2": "I did the muzzle flashes, bullet hits, and practical explosion enhancement. I also designed and animated the end credit sequence.",
+        "description3": "This short film is not available to watch because Texas Cotton was later made into a feature film.",
+        "tags": ["Visual Effects", "Animation"],
+        "thumbnail": "texas_cotton.jpg",
+        "video": "https://player.vimeo.com/video/347791614",
+        "aspectCode": 2
+    },
+    {
+        "id": 347792734,
+        "client": "Short Film",
+        "title": "Shilo - VFX Cutdown",
+        "description1": "This is a cutdown showcasing the visual effects work I did for the 2018 short film, Shilo.",
+        "description2": "In the first sequence, I composited in the television screen, and added the screen reflection in the actor's eye. The jeep sequence was all filmed on green screen. I did all of the keying and compositing of the background plate.",
+        "description3": "",
+        "tags": ["Visual Effects"],
+        "thumbnail": "shilo.jpg",
+        "video": "https://player.vimeo.com/video/347792734",
+        "aspectCode": 2
+    },
+    {
+        "id": 347793840,
+        "client": "Short Film",
+        "title": "Warm Feet - VFX Breakdown",
+        "description1": "This is a process breakdown of a visual effects shot that I did for the 2017 short film, Warm Feet.",
+        "description2": "I tracked the two tissue boxes by hand in Cinema 4D, and generated the smoke using TurbulenceFD. I rotoscoped her legs and composited the shot in After Effects.",
+        "description3": "",
+        "tags": ["Visual Effects"],
+        "thumbnail": "warm_feet.jpg",
+        "video": "https://player.vimeo.com/video/347793840",
+        "aspectCode": 2
+    },
+    {
+        "id": 184595712,
+        "client": "Cut To Black",
+        "title": "Logo Animation",
+        "description1": "A logo animation showcasing the different services provided by the Austin production and post company, Cut To Black.",
+        "description2": "",
+        "description3": "",
+        "tags": ["Motion Graphics"],
+        "thumbnail": "ctb_logo_animation.jpg",
+        "video": "https://player.vimeo.com/video/184595712",
         "aspectCode": 2
     }
 ]
