@@ -97,7 +97,7 @@
 
     #main-title {
         font-size: 60px;
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     #sub-title {
@@ -132,7 +132,7 @@
 
     #cta {
         font-size: 14px;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
 }
