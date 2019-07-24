@@ -27,6 +27,10 @@
     text-shadow: #333 0px 0px 5px
 }
 
+#dots {
+    display: none;
+}
+
 #services {
     font-weight: 100;
     font-size: 32px;
@@ -97,11 +101,26 @@
     }
 
     #sub-title {
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #dots {
+        display: unset;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 20px 5px 0px 5px;
     }
 
     #services {
         font-size: 16px;
+        margin-top: 20px;
     }
 
     .button-link {

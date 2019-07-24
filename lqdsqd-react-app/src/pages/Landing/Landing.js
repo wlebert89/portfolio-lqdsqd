@@ -12,6 +12,11 @@ function Landing() {
                 <div id="sub-title">
                     The visual design portfolio of Wes Lebert
                 </div>
+                <div id="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
                 <div id="services">
                     motion design | 3D | visual effects
                 </div>
