@@ -1,7 +1,6 @@
 #landing {
     color: #fff;
     text-align: center;
-    background-image: url(/images/landing-crystals-overlay.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -12,11 +11,19 @@
     height: 100%;
 }
 
+.bkg-1 {
+    background-image: url(/images/landing-crystals-overlay.jpg);
+}
+
+.bkg-2 {
+    background-image: url(/images/landing-conch-overlay.jpg);
+}
+
 #main-title {
     font-weight: 900;
     font-size: 80px;
     margin-top: 90px;
-    text-shadow: #333 0px 0px 5px
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
 }
 
 #sub-title {
@@ -24,7 +31,7 @@
     font-style: italic;
     font-size: 18px;
     margin-top: 40px;
-    text-shadow: #333 0px 0px 5px
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 #dots {
@@ -35,9 +42,8 @@
     font-weight: 100;
     font-size: 32px;
     margin-top: 60px;
-    text-shadow: #333 0px 0px 5px
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
-
 
 #buttons {
     margin: 0 auto;
@@ -53,7 +59,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     margin: 0px 20px 0px 20px;
-    box-shadow: #333 0px 0px 5px
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 .button-projects {
@@ -78,7 +84,7 @@
     font-size: 21px;
     font-weight: 100;
     margin-top: 50px;
-    text-shadow: #333 0px 0px 5px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
     margin-bottom: 140px;
 }
 
@@ -101,7 +107,7 @@
     }
 
     #sub-title {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
     }
 
@@ -110,17 +116,22 @@
     }
 
     .dot {
-        height: 10px;
-        width: 10px;
+        height: 8px;
+        width: 8px;
         background-color: #fff;
         border-radius: 50%;
         display: inline-block;
-        margin: 20px 5px 0px 5px;
+        margin: 25px 5px 0px 5px;
     }
 
     #services {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 20px;
+        font-weight: 400;
+    }
+
+    #buttons {
+        margin-top: 30px;
     }
 
     .button-link {

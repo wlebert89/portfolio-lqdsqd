@@ -5,7 +5,7 @@ import "./Landing.css";
 function Landing() {
     return (
         <div>
-            <div id="landing">
+            <div id="landing" className={"bkg-" + Math.floor(Math.random() * 2 + 1)}>
                 <div id="main-title">
                     lqdsqd
                 </div>
