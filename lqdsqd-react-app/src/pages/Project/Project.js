@@ -14,7 +14,7 @@ class Project extends React.Component {
 
         this.setState({ projectInfo });
 
-        window.scrollTo(0, 0)
+        document.querySelector('.container').scrollTop = 0;
     }
 
     renderContent() {

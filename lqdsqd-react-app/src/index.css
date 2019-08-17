@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-#root {
-    height: 100%;
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -13,7 +9,7 @@ html, body {
     font-size: 12px;
     background: #111;
     overflow: auto;
-    /* padding-bottom: 42px; */
+    padding-bottom: 42px;
     height: 100%;
 }
 

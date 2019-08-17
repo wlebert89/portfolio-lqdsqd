@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css";
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 
 function Landing() {
     return (
         <div className="root-div">
-            {/* <Helmet>
+            <Helmet>
                 <style>{'body { overflow: hidden;}'}</style>
-            </Helmet> */}
+            </Helmet>
             <div id="landing" className={"bkg-" + Math.floor(Math.random() * 2 + 1)}>
                 <div id="centered">
                     <div id="main-title">
