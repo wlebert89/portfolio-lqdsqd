@@ -1,91 +1,93 @@
 #landing {
     color: #fff;
+    width: 100%;
+    height: 100vh;
     text-align: center;
     background-position: center center;
     background-repeat: no-repeat;
-    overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 .bkg-1 {
-    background-image: url(/images/landing-crystals-overlay.jpg);
+    background-image: url(/images/landing-crystals-overlay-2.jpg);
 }
 
 .bkg-2 {
-    background-image: url(/images/landing-conch-overlay.jpg);
+    background-image: url(/images/landing-crystals-overlay-2.jpg);
+}
+
+#centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 #main-title {
-    font-weight: 900;
-    font-size: 80px;
-    margin-top: 90px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
-}
-
-#sub-title {
     font-weight: 100;
-    font-style: italic;
-    font-size: 18px;
-    margin-top: 40px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-#dots {
-    display: none;
+#main-title div {
+    margin-bottom: 5px;
 }
 
 #services {
     font-weight: 100;
-    font-size: 32px;
-    margin-top: 60px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 #buttons {
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .button-link {
-    width: 150px;
+    width: 130px;
     height: 50px;
     border-radius: 8px;
     border: none;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;
     margin: 0px 20px 0px 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 .button-projects {
-    background-color: #ed6b4a;
+    /* background-color: #ed6b4a; */
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.5s ease;
 }
 
 .button-projects:hover {
-    background-color: #eb5833;
+    /* background-color: #eb5833;
+    background-color: rgba(0, 0, 0, .65); */
+    background-color: rgba(237, 107, 74, 0.65);
     cursor: pointer;
 }
 
 .button-info {
-    background-color: #ed4a60;
+    /* background-color: #ed4a60; */
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.5s ease;
 }
 
 .button-info:hover {
-    background-color: #eb374f;
+    /* background-color: #eb374f; */
+    /* background-color: rgba(0, 0, 0, .65); */
+    background-color: rgba(237, 74, 96, 0.65);
     cursor: pointer;
-}
-
-#cta {
-    font-size: 21px;
-    font-weight: 100;
-    margin-top: 50px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-    margin-bottom: 140px;
 }
 
 #contact-icons {
@@ -102,32 +104,14 @@
     }
 
     #main-title {
-        font-size: 60px;
-        margin-top: 50px;
-    }
-
-    #sub-title {
         font-size: 14px;
-        font-weight: 400;
-    }
-
-    #dots {
-        display: unset;
-    }
-
-    .dot {
-        height: 8px;
-        width: 8px;
-        background-color: #fff;
-        border-radius: 50%;
-        display: inline-block;
-        margin: 25px 5px 0px 5px;
+        font-weight: 100;
     }
 
     #services {
         font-size: 14px;
         margin-top: 20px;
-        font-weight: 400;
+        font-weight: 100;
     }
 
     #buttons {
@@ -135,17 +119,12 @@
     }
 
     .button-link {
-        width: 120px;
+        width: 100px;
         height: 40px;
-        font-size: 16px;
+        font-size: 12px;
         margin: 0px 10px 0px 10px;
     }
 
-    #cta {
-        font-size: 14px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
 }
 
 @media screen and (max-width: 640px) {
@@ -156,7 +135,7 @@
 
     .contact-icon {
         font-size: 20px;
-        margin: 0px 10px 0px 10px;
+        margin: 30px 10px 0px 10px;
     }
 
     a.contact-icon:link,

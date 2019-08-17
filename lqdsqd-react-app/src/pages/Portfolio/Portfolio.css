@@ -135,6 +135,7 @@
 }
 
 @media screen and (max-width: 1024px) {
+
     .project-thumbnail {
         width: 50%;
     }

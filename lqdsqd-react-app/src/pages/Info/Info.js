@@ -27,15 +27,13 @@ function Info() {
 
             <div id="about-text">
                 <p>
-                    Liquid Squid is the visual design alias of Wes Lebert - freelance motion designer, visual effects artist, and 3D generalist in Austin, TX.
-                    With six years of professional experience in the post-production industry, Wes has worked both full-time and contract for a number of creative agencies and brands, and has experience working with teams of all sizes.
-                    He brings a tireless eye for detail and a passion for problem solving to all of his projects.
-                    Please get in touch any time via the above channels.
+                    My name is Wes Lebert and I'm a freelance motion designer, visual effects artist, and 3D generalist based in Austin, TX.
+                    With over six years of professional experience in the post-production industry, I've worked both full-time and contract for a number of creative agencies and brands, and I have experience working with teams of all sizes.
+                    I bring a tireless eye for detail and a passion for problem solving to all of my projects.
                 </p>
             </div>
         </div>
     )
 }
-
 
 export default Info;
