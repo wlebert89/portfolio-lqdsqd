@@ -1,16 +1,23 @@
 * {
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background: #111;
     overflow: auto;
     padding-bottom: 42px;
     height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    html, body {
+        padding-bottom: 28px;
+    }
 }
 
 /* 
