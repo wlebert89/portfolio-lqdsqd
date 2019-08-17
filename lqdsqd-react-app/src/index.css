@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* -webkit-overflow-scrolling: touch; */
+    -webkit-overflow-scrolling: touch;
 }
 
 html, body {
@@ -9,10 +9,9 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background: #111;
-    overflow: auto;
+    overflow-y: scroll;
     padding-bottom: 42px;
     height: 100%;
-    z-index: 0;
 }
 
 @media screen and (max-width: 640px) {

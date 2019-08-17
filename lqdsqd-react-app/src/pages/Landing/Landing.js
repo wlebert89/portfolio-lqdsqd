@@ -9,7 +9,7 @@ function Landing() {
             <Helmet>
                 <style>{'body { overflow: hidden;}'}</style>
             </Helmet>
-            <div id="landing" className={"bkg-" + Math.floor(Math.random() * 2 + 1)}>
+            <div id="landing">
                 <div id="centered">
                     <div id="main-title">
                         <div>The motion design portfolio</div>
