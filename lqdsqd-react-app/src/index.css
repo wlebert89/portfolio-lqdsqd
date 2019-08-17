@@ -10,9 +10,9 @@ html, body {
     background: #111;
     padding-bottom: 42px;
     height: 100%;
-    overflow-y: auto;
+    overflow: auto;
     /* -webkit-overflow-scrolling: touch; */
-    z-index: 1;
+    z-index: 0;
 }
 
 @media screen and (max-width: 640px) {
