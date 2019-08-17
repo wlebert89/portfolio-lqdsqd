@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    -webkit-overflow-scrolling: touch;
 }
 
 html, body {
@@ -12,6 +11,7 @@ html, body {
     overflow: auto;
     padding-bottom: 42px;
     height: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 @media screen and (max-width: 640px) {
