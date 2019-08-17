@@ -120,11 +120,18 @@
 
     .button-link {
         width: 100px;
-        height: 40px;
+        height: 35px;
         font-size: 12px;
         margin: 0px 10px 0px 10px;
     }
 
+    .button-projects {
+        background-color: #ed6b4a;
+    }
+    
+    .button-info {
+        background-color: #ed4a60;
+    }
 }
 
 @media screen and (max-width: 640px) {

@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Nav />
-      <div className="root-div">
+      <div>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/info" component={Info} />
