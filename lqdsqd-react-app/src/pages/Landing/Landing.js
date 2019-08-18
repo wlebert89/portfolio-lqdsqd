@@ -1,23 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css";
-import { Helmet } from "react-helmet";
 
 function Landing() {
     return (
-        <div className="root-div">
-            <Helmet>
-                <style>{'body { overflow: hidden;}'}</style>
-            </Helmet>
+        <div>
             <div id="landing">
                 <div id="centered">
                     <div id="main-title">
                         <div>The motion design portfolio</div>
                         <div>of Wes Lebert</div>
                     </div>
-                    {/* <div id="services">
-                        Motion Design | 3D | Visual Effects
-                    </div> */}
                     <div id="buttons">
                         <Link to={"/portfolio"}>
                             <button className="button-link button-projects">

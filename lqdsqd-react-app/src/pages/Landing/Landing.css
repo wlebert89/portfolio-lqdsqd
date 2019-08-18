@@ -1,14 +1,16 @@
 #landing {
     color: #fff;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 150px);
+    position: absolute;
+    top: 150px;
     text-align: center;
     background-image: url(/images/landing-crystals-overlay.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: contain;
     background-attachment: fixed;
 }
@@ -30,13 +32,6 @@
 
 #main-title div {
     margin-bottom: 5px;
-}
-
-#services {
-    font-weight: 100;
-    font-size: 24px;
-    margin-top: 20px;
-    align-items: center;
 }
 
 #buttons {
@@ -99,12 +94,6 @@
     #main-title {
         font-size: 14px;
         font-weight: 300;
-    }
-
-    #services {
-        font-size: 14px;
-        margin-top: 20px;
-        font-weight: 100;
     }
 
     #buttons {

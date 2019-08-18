@@ -3,16 +3,14 @@
 }
 
 html, body {
-    margin: 0px;
-    padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background: #111;
     padding-bottom: 42px;
     height: 100%;
     overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior: none;
+    /* to account for scrollbar moving the page */
+    margin-left: calc(100vw - 100%);
 }
 
 @media screen and (max-width: 640px) {
