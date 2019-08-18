@@ -11,7 +11,8 @@ body {
     background: #111;
     padding-bottom: 42px;
     height: 100%;
-    overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #root-div {
