@@ -1,5 +1,17 @@
 [
     {
+        "id": 354551586,
+        "title": "Southern Tropic",
+        "client": "Pinthouse Pizza",
+        "description1": "A looping 3D animation for the Pinthouse Pizza can release of Southern Tropic IPA.",
+        "description2": "",
+        "description3": "",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "southern_tropic.jpg",
+        "video": "https://player.vimeo.com/video/354551586",
+        "aspectCode": 1
+    },
+    {
         "id": 343522009,
         "title": "Emilio",
         "client": "Pinthouse Pizza",
