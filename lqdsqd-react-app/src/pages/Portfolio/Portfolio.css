@@ -1,7 +1,8 @@
 #projects {
     height: 100%;
     padding: 4px;
-    overflow: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* The .overlay settings are what keep the description text centered vertically */
@@ -144,7 +145,7 @@
         opacity: .7;
         filter: alpha(opacity=40);
         -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0); 
+        transform: translate3d(0, 0, 0);
     }
 
     .hovereffect a,

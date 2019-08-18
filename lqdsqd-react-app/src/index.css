@@ -12,8 +12,6 @@ body {
     padding-bottom: 42px;
     height: 100%;
     overflow: auto;
-    /* overflow-y: scroll;
-    -webkit-overflow-scrolling: touch; */
 }
 
 @media screen and (max-width: 640px) {
