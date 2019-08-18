@@ -9,8 +9,6 @@ html, body {
     padding-bottom: 42px;
     height: 100%;
     overflow: auto;
-    /* to account for scrollbar moving the page */
-    margin-left: calc(100vw - 100%);
 }
 
 @media screen and (max-width: 640px) {

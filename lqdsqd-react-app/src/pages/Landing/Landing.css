@@ -1,18 +1,16 @@
 #landing {
     color: #fff;
     width: 100%;
-    height: calc(100vh - 150px);
-    position: absolute;
-    top: 150px;
+    /* to account for the top and bottom bars!! */
+    height: calc(100vh - 234px);
     text-align: center;
     background-image: url(/images/landing-crystals-overlay.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #centered {
