@@ -3,10 +3,6 @@ header {
     height: 150px;
     overflow: hidden;
     background: #fff;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
 }
 
 .container {
@@ -63,7 +59,6 @@ a.nav-link:hover {
 @media screen and (max-width: 640px) {
     header {
         height: 70px;
-        overflow: hidden;
         transition: height .35s;
     }
 

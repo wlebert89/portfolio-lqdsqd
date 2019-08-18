@@ -1,6 +1,7 @@
 #projects {
     height: 100%;
     padding: 4px;
+    overflow: hidden;
 }
 
 /* The .overlay settings are what keep the description text centered vertically */
@@ -135,10 +136,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    #projects {
-        padding-bottom: 22px;
-    }
-
     .project-thumbnail {
         width: 50%;
     }

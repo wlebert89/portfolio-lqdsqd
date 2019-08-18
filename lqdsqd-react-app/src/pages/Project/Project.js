@@ -19,28 +19,30 @@ class Project extends React.Component {
 
     renderContent() {
         return (
-            <div className="container">
-                <div id="project-right">
-                    <div className={"video-player-" + this.state.projectInfo.aspectCode}>
-                        <iframe src={this.state.projectInfo.video} title={this.state.projectInfo.id} allow="autoplay; fullscreen"></iframe>
-                    </div>
-                </div>
-                <div id="project-left">
-                    <div className="project-title">
-                        {this.state.projectInfo.title}
-                    </div>
-                    <div className="project-client">
-                        {this.state.projectInfo.client}
-                    </div>
-                    <div className="project-descriptions">
-                        <div className="desc-paragraph">
-                            {this.state.projectInfo.description1}
+            <div>
+                <div className="container">
+                    <div id="project-right">
+                        <div className={"video-player-" + this.state.projectInfo.aspectCode}>
+                            <iframe src={this.state.projectInfo.video} title={this.state.projectInfo.id} allow="autoplay; fullscreen"></iframe>
                         </div>
-                        <div className="desc-paragraph">
-                            {this.state.projectInfo.description2}
+                    </div>
+                    <div id="project-left">
+                        <div className="project-title">
+                            {this.state.projectInfo.title}
                         </div>
-                        <div className="desc-paragraph">
-                            {this.state.projectInfo.description3}
+                        <div className="project-client">
+                            {this.state.projectInfo.client}
+                        </div>
+                        <div className="project-descriptions">
+                            <div className="desc-paragraph">
+                                {this.state.projectInfo.description1}
+                            </div>
+                            <div className="desc-paragraph">
+                                {this.state.projectInfo.description2}
+                            </div>
+                            <div className="desc-paragraph">
+                                {this.state.projectInfo.description3}
+                            </div>
                         </div>
                     </div>
                 </div>

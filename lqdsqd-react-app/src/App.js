@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <Nav />
-      <div id="root-div">
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/info" component={Info} />
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/portfolio/project/:id" component={Project} />
           <Route component={NoMatch} />
         </Switch>
-      </div>
       <Footer />
     </Router>
   );
