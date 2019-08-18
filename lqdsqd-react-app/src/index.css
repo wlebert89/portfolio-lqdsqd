@@ -9,9 +9,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background: #111;
-    padding-bottom: 42px;
-    height: 100%;
     overflow: auto;
+    padding-bottom: 42px;
 }
 
 @media screen and (max-width: 640px) {

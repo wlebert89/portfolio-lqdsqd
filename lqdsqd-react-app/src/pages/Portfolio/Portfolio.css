@@ -1,8 +1,6 @@
 #projects {
     height: 100%;
     padding: 4px;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 /* The .overlay settings are what keep the description text centered vertically */
