@@ -152,7 +152,7 @@
     }
 
     .hovereffect:hover img {
-        opacity: 0;
+        opacity: 1;
     }
 
     .overlay {
