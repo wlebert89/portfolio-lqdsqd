@@ -48,3 +48,29 @@
     font-weight: 100;
     margin-top: 20px;
 }
+
+#lqd {
+    font-size: 32px;
+    font-weight: 300;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+}
+
+#sqd {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 0px;
+
+    /* ROTATION */
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}

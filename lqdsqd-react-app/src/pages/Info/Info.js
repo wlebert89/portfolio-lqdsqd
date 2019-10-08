@@ -39,6 +39,12 @@ function Info() {
                         <img src="images/self_portrait.jpg" alt="lqdsqd" />
                     </div>
                 </div>
+                <div id="lqd">
+                    lqd
+                </div>
+                <div id="sqd">
+                    sqd
+                </div>
             </div>
         </div>
     )
