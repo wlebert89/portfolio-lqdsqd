@@ -21,12 +21,12 @@ class Project extends React.Component {
         return (
             <div>
                 <div className="container">
-                    <div id="project-right">
+                    <div id="project-media">
                         <div className={"video-player-" + this.state.projectInfo.aspectCode}>
                             <iframe src={this.state.projectInfo.video} title={this.state.projectInfo.id} allow="autoplay; fullscreen"></iframe>
                         </div>
                     </div>
-                    <div id="project-left">
+                    <div id="project-text">
                         <div className="project-title">
                             {this.state.projectInfo.title}
                         </div>

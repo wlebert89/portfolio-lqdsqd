@@ -1,10 +1,10 @@
-#project-right {
+#project-media {
     float: right;
     width: 66%;
     padding-top:20px;
 }
 
-#project-left {
+#project-text {
     float: left;
     width: 33%;
     padding-top: 30px;
@@ -19,7 +19,6 @@
 
 .project-client {
     font-size: 16px;
-    font-style: italic;
     font-weight: 100;
     color: #fff;
     margin-top: 20px;
@@ -33,9 +32,9 @@
     margin-top: 40px;
 }
 
-/* .desc-paragraph {
-    margin-bottom: 30px;
-} */
+.desc-paragraph {
+    margin-bottom: 20px;
+}
 
 .video-player-1 {
     position: relative;
@@ -65,11 +64,11 @@ iframe {
 }
 
 @media screen and (max-width: 1024px) {
-    #project-right {
+    #project-media {
         width: 100%;
     }
     
-    #project-left {
+    #project-text {
         clear: both;
         width: 100%;
         padding-right: 0px;

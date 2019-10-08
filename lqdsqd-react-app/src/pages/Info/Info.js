@@ -17,26 +17,22 @@ function Info() {
     return (
         <div>
             <div>
-                <div id="info-left">
+                <div id="info-photo">
+                    <div id="profile-picture">
+                        <img src="images/self_portrait.jpg" alt="lqdsqd" />
+                    </div>
+                </div>
+                <div id="info-text">
                     <div id="about-text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Tempore earum doloribus eligendi animi tempora, nemo, accusantium repellendus eius illum maxime id neque aut. 
-                            At adipisci numquam debitis veritatis esse explicabo!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Eveniet dignissimos possimus aperiam similique quia, molestiae consectetur dolorum earum tenetur tempore iure soluta officiis ex nam ut neque, reprehenderit, odit magni.
+                            Hello, my name is Wes Lebert and I'm a freelance motion designer, visual effects artist, and 3D generalist based in Austin, TX.
+                            With over six years of professional experience in the post-production industry, I've worked both full-time and contract for a number of creative agencies and brands, and I have experience working with teams of all sizes.
+                            I bring a tireless eye for detail and a passion for problem solving to all of my projects.
                         </p>
                     </div>
                     <div id="contact">
                         <p className="contact-info">{email}</p>
                         <p className="contact-info">{phone}</p>
-                    </div>
-                </div>
-                <div id="info-right">
-                    <div id="profile-picture">
-                        <img src="images/self_portrait.jpg" alt="lqdsqd" />
                     </div>
                 </div>
                 <div id="lqd">

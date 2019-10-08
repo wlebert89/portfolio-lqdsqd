@@ -1,4 +1,4 @@
-#info-left {
+#info-text {
     float: left;
     height: calc(100vh - 230px);
     width: 50%;
@@ -9,7 +9,7 @@
     position: relative;
 }
 
-#info-right {
+#info-photo {
     float: right;
     height: calc(100vh - 230px);
     width: 50%;
@@ -25,7 +25,6 @@
     width: auto;
     object-fit: cover;
     border-radius: 50%;
-
 }
 
 #about-text {
@@ -73,4 +72,66 @@
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1150px) {}
+
+@media screen and (max-width: 1024px) {
+    #info-photo {
+        float: none;
+        width: 100%;
+        height: calc(50vh - 115px);
+    }
+
+    #info-text {
+        clear: both;
+        float: none;
+        width: 100%;
+        height: calc(50vh - 115px);
+        padding-top: 30px;
+    }
+
+    #profile-picture img {
+        height: calc(50vh - 230px);
+    }
+
+    #contact {
+        margin-bottom: 20px;
+    }
+
+    #lqd {
+        display: none;
+    }
+
+    #sqd {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #info-photo {
+        height: calc(50vh - 60px);
+        padding-top: 30px;
+    }
+
+    #info-text {
+        height: calc(50vh - 60px);
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+
+    #profile-picture img {
+        height: calc(50vh - 120px);
+    }
+
+    #about-text {
+        font-size: 12px;
+    }
+
+    .contact-info {
+        font-size: 12px;
+        margin-top: 10px;
+    }
 }

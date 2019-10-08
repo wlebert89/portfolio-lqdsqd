@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 357949770,
         "title": "2019 Show Reel",
         "client": "lqdsqd",
@@ -12,13 +11,37 @@
         "aspectCode": 2
     },
     {
+        "id": 365109474,
+        "title": "Green Glory",
+        "client": "Pinthouse Pizza",
+        "description1": "A 3D animation for the Pinthouse Pizza can release of Green Glory double IPA, brewed in collaboration with Beachwood Brewing.",
+        "description2": "",
+        "description3": "This animation was designed to play across several social media platforms.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "green_glory.jpg",
+        "video": "https://player.vimeo.com/video/365109474",
+        "aspectCode": 1
+    },
+    {
+        "id": 365113597,
+        "title": "Green Battles",
+        "client": "Pinthouse Pizza",
+        "description1": "A 3D animation for the Pinthouse Pizza can release of DDH Fresh Hop Green Battles IPA.",
+        "description2": "The good folks at Pinthouse asked me to create a hop farm scene. I built the custom hop bines using Forester for Cinema 4D so that I could use its built-in wind simulation to add a subtle breeze through the field.",
+        "description3": "This animation was designed to play across several social media platforms.",
+        "tags": ["3D", "Animation", "Art Direction"],
+        "thumbnail": "green_battles.jpg",
+        "video": "https://player.vimeo.com/video/365113597",
+        "aspectCode": 1
+    },
+    {
         "id": 354551586,
         "title": "Southern Tropic",
         "client": "Pinthouse Pizza",
-        "description1": "A looping 3D animation for the Pinthouse Pizza can release of Southern Tropic IPA. This animation was designed to play across several social media platforms.",
-        "description2": "",
-        "description3": "",
-        "tags": ["3D", "Animation", "Art Direction"],
+        "description1": "A looping 3D animation for the Pinthouse Pizza can release of Southern Tropic IPA.",
+        "description2": "I created the miniature set design in Cinema 4D, pulling inspiration for atmosphere and color from the label on the can. I then created subtle, looping motion in the palm trees and water, and later composited the birds in After Effects.",
+        "description3": "This animation was designed to play across several social media platforms.",
+        "tags": ["3D", "Animation", "Art Direction", "Sound Design"],
         "thumbnail": "southern_tropic.jpg",
         "video": "https://player.vimeo.com/video/354551586",
         "aspectCode": 1
@@ -132,6 +155,18 @@
         "aspectCode": 2
     },
     {
+        "id": 347599970,
+        "client": "Accenture Interactive",
+        "title": "The Love Index",
+        "description1": "A motion graphics piece created to introduce and explain The Love Index, a complex metric used to measure and provide insight into brand loyalty and engagement.",
+        "description2": "",
+        "description3": "",
+        "tags": ["Motion Graphics"],
+        "thumbnail": "love_index.jpg",
+        "video": "https://player.vimeo.com/video/347599970",
+        "aspectCode": 2
+    },
+    {
         "id": 347792734,
         "client": "Short Film",
         "title": "Shilo - VFX Cutdown",
@@ -148,7 +183,7 @@
         "client": "Short Film",
         "title": "Warm Feet - VFX Breakdown",
         "description1": "This is a process breakdown of a visual effects shot that I did for the 2017 short film, Warm Feet.",
-        "description2": "I tracked the two tissue boxes by hand in Cinema 4D, and generated the smoke using TurbulenceFD. I rotoscoped her legs and composited the shot in After Effects.",
+        "description2": "I tracked the two tissue boxes by hand in Cinema 4D, and generated the smoke using TurbulenceFD. I rotoscoped the talents' legs and composited the shot in After Effects.",
         "description3": "",
         "tags": ["Visual Effects"],
         "thumbnail": "warm_feet.jpg",
