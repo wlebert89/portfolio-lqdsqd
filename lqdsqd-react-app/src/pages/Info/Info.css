@@ -1,37 +1,50 @@
-.container {
-    width: 90%;
-    margin: auto;
+#info-left {
+    float: left;
+    height: calc(100vh - 230px);
+    width: 50%;
+    background: #fff;
+    padding-left: 5%;
+    padding-right: 150px;
+    padding-top: 60px;
+    position: relative;
+}
+
+#info-right {
+    float: right;
+    height: calc(100vh - 230px);
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 60px;
 }
 
 #profile-picture img {
     display: block;
-    max-width: 250px;
-    margin: auto;
-    padding-top: 40px;
-}
+    margin: 0 auto;
+    height: calc(100vh - 350px);
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
 
-#contact {
-    text-align: center;
-    color: #fff;
-    margin-top: 30px;
-}
-
-.contact-info {
-    margin: 0px 10px 0px 10px;
-}
-
-.contact-divider {
-    border-left: 1px solid #fff;
-    height: 100px;
 }
 
 #about-text {
-    color: #fff;
-    line-height: 170%;
-    text-align: justify;
-    text-align-last: center;
-    max-width: 500px;
-    margin: auto;
-    margin-top: 30px;
+    color: #111;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 200%;
+    max-width: 700px;
     padding-bottom: 20px;
+}
+
+#contact {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+}
+
+.contact-info {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 20px;
 }

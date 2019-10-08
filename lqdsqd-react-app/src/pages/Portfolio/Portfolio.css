@@ -25,14 +25,14 @@
 .thumbnail-client {
     margin-bottom: 10px;
     font-size: 16px;
-    font-weight: 100;
-    font-style: italic;
+    font-weight: 300;
+    /* font-style: italic; */
 }
 
 /* HOVER OVERLAY */
 
 .color-0 {
-    background: #fff;
+    background: #000;
 }
 
 .hovereffect {
@@ -71,10 +71,13 @@
 }
 
 .hovereffect:hover img {
-    opacity: .25;
+    opacity: .5;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    /* GREYSCALE */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .hovereffect h2 {
@@ -109,7 +112,7 @@
 
 .hovereffect a,
 .hovereffect p {
-    color: #000;
+    color: #fff;
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -141,26 +144,20 @@
 
     .hovereffect img {
         opacity: 1;
-        filter: alpha(opacity=40);
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
     }
 
     .hovereffect a,
     .hovereffect p {
         opacity: 0;
-        filter: alpha(opacity=0);
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
     }
 
-    /* .hovereffect:hover img {
+    .hovereffect:hover img {
         opacity: 0;
     }
 
     .overlay {
         display: none;
-    } */
+    }
 
 
 }
