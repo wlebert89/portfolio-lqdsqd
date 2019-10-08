@@ -119,7 +119,9 @@
 
     .hovereffect img {
         opacity: .7;
-        /* GREYSCALE REMOVAL */
+    }
+
+    .hovereffect:hover img {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
