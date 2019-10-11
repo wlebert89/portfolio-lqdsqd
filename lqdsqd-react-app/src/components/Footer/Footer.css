@@ -8,6 +8,7 @@ footer {
 }
 
 #footer-text {
+    font-weight: 100;
     color: #9f9f9f;
     position: absolute;
     bottom: 0;

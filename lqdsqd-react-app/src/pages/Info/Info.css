@@ -98,7 +98,8 @@
     }
 
     #contact {
-        margin-bottom: 20px;
+        position: initial;
+        margin-bottom: 5px;
     }
 
     #lqd {
@@ -117,7 +118,7 @@
     }
 
     #info-text {
-        height: calc(50vh - 60px);
+        height: calc(50vh);
         padding-right: 5%;
         padding-top: 5%;
     }
@@ -128,11 +129,11 @@
 
     #about-text {
         font-size: 12px;
-        line-height: 175%;
+        line-height: 150%;
     }
 
     .contact-info {
         font-size: 12px;
-        margin-top: 10px;
+        margin-top: 7px;
     }
 }
