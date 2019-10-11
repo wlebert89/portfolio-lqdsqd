@@ -109,17 +109,17 @@
         width: 50%;
     }
 
-    .hovereffect a,
+    /* .hovereffect a,
     .hovereffect p {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         text-shadow: #111 0px 0px 2px;
-    }
+    } */
 
-    .hovereffect img {
+    /* .hovereffect img {
         opacity: .7;
-    }
+    } */
 
     .hovereffect:hover a,
     .hovereffect:hover p {
