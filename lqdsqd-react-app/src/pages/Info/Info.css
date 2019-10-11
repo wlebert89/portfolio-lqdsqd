@@ -50,21 +50,21 @@
 
 #lqd {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 100;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -55px;
 }
 
 #sqd {
     color: #fff;
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 100;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-left: 0px;
+    margin-left: -5px;
 
     /* ROTATION */
     transform: rotate(90deg);
