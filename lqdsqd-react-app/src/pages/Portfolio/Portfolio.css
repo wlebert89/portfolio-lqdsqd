@@ -121,10 +121,6 @@
         opacity: .7;
     }
 
-    .hovereffect:hover img {
-        display: none;
-    }
-
     .hovereffect:hover a,
     .hovereffect:hover p {
         display: none;
