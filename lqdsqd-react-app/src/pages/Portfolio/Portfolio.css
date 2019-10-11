@@ -121,10 +121,12 @@
         opacity: .7;
     }
 
-    /* .hovereffect:hover a,
-    .hovereffect:hover p {
-        display: none;
-    } */
+    .hovereffect:hover img,
+    .hovereffect:focus img {
+        /* GREYSCALE */
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
 }
 
 @media screen and (max-width: 640px) {
