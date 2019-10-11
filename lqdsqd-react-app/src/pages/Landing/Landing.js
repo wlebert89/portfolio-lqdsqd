@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import "./Landing.css";
 
 function Landing() {
@@ -14,12 +14,12 @@ function Landing() {
                     <Link to={"/portfolio"}>
                         <button className="button-link button-projects">
                             Projects
-                            </button>
+                        </button>
                     </ Link>
                     <Link to={"/info"}>
                         <button className="button-link button-info">
                             Info
-                            </button>
+                        </button>
                     </ Link>
                 </div>
                 <div id="contact-icons">
